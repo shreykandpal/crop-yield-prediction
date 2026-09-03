@@ -14,6 +14,10 @@ This project builds a Machine Learning regression pipeline to predict agricultur
 4. **Model Training:** Split data into 80% training and 20% testing sets. Trained a baseline **Linear Regression** model and an ensemble **Random Forest Regressor**.
 5. **Model Evaluation:** Evaluated performance using $R^2$ Score, Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
 
-
+## Results Summary
+| Model | R² Score | RMSE (Quintals/Ha) | MAE (Quintals/Ha) |
+| :--- | :---: | :---: | :---: |
+| **Linear Regression** | 0.91 | 91.86 | 66.93 |
+| **Random Forest Regressor** | 0.96 | 62.55 | 23.74 |
 
 *Key Insight:* The Random Forest model achieved superior performance due to its ability to capture non-linear relationships and regional state-crop interaction effects.
